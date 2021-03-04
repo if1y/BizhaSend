@@ -9,11 +9,11 @@ const config =  {
   "uploadDir": path.resolve(__dirname + '/data'),
   "iface": '0.0.0.0',
   // set to false to disable HTTP
-  "port": 3000,
+  "port": 8080,
   // HTTPS, set all 3 values to enable
-  "sslPort": 8443,
-  "sslKeyFile": false,
-  "sslCertFile": false,
+  //"sslPort": 8443,
+  //"sslKeyFile": false,
+  //"sslCertFile": false,
   // Force redirect to https
   // can be true or a specific url like https://example.com:8443
   // keep empty to disable
