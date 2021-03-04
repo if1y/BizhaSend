@@ -9,7 +9,7 @@ const config =  {
   "uploadDir": path.resolve(__dirname + '/data'),
   "iface": '0.0.0.0',
   // set to false to disable HTTP
-  "port": 8080,
+  "port": 80,
   // HTTPS, set all 3 values to enable
   //"sslPort": 8443,
   //"sslKeyFile": false,
